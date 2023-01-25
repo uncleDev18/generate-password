@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    height: 100vh;
+}
+
+.container
+{
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+}
+
+h1, span
+{
+    margin-top: 115px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h1, span, button, .passBx
+{
+    margin-left: 52px;
+}
+
+button
+{
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background: orangered;
+    padding: 9px 17px;
+    margin-top: 51px;
+}
+
+button:hover
+{
+    border: 1px solid white;
+}
+
+hr
+{
+    border: 1px solid #2F3E53;
+    width: 446px;
+    margin: 35px 52px;
+}
+
+.copy-pass
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    color: orangered;
+}
+
+.passBx
+{
+    display: flex;
+    justify-content: space-between;
+    width: 446px;
+}
